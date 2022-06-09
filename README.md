@@ -1,7 +1,7 @@
 # rl_ppo
 The repositary consists of custom implementation of PPO agent, Atari wrapper, training scripts, experiment results + trained models.
 
-PPO agent is able to:
+## PPO agent is able to:
 - collect data via multiprocessing
 - compute target values by GAE (Generalized Advantage Estimate)
 - predict values by head support
@@ -9,11 +9,21 @@ PPO agent is able to:
 
 I tuned PPO agent in domain of Atari games, specially on Pong, Breakout, MsPacman and Montezuma's Revenge. My students and colleagues have also used my PPO agent in another domains like Starcraft and Doom mini games, card game Dominion and p-median optimalization problem. However, most of these experiments have not been allowable yet. :)
 
-Results of PPO:
+## Results of PPO:
 
-![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/pong_score.png?raw=true "Title")
+###### Pong
+![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/pong_score.png?raw=true "Pong")
 
-Few advantages in research:
+###### Brekout
+![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/breakout_score.png?raw=true "Breakout")
+
+###### MsPacman
+![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/pacman_score.png?raw=true "Pacman")
+
+###### Montezuma's Revenge
+![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/montezuma_score.png?raw=true "Montezuma")
+
+## Few advantages in research:
 - In Atari domain, othogonal initialization of model is better than Xavier one.
 - Adam optimizer is good option... almost everytime. 
 - In Atari domain, learning rate set to 0.00025 is good choice in most of environmnets.
