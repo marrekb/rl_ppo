@@ -1,13 +1,13 @@
 # rl_ppo
 The repositary consists of custom implementation of PPO agent, Atari wrapper, training scripts, experiment results + trained models.
 
-## PPO agent is able to:
+###### PPO agent is able to: 
 - collect data via multiprocessing
 - compute target values by GAE (Generalized Advantage Estimate)
 - predict values by head support
 - explore state space by using Random Network Distillation module
 
-I tuned PPO agent in domain of Atari games, specially on Pong, Breakout, MsPacman and Montezuma's Revenge. My students and colleagues have also used my PPO agent in another domains like Starcraft and Doom mini games, card game Dominion and p-median optimalization problem. However, most of these experiments have not been allowable yet. :)
+I tuned PPO agent in domain of Atari games, specially on **Pong**, **Breakout**, **MsPacman** and **Montezuma's Revenge**. My students and colleagues have also used my PPO agent in another domains like **Starcraft** and **Doom** mini games, card game **Dominion** and **p-median** optimalization problem. However, most of these experiments have not been allowable yet. :)
 
 ## Results of PPO:
 
