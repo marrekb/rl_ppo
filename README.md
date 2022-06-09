@@ -12,15 +12,28 @@ I tuned PPO agent in domain of Atari games, specially on **Pong**, **Breakout**,
 ## Results of PPO:
 
 ###### Pong
+- One iteration consists of 4096 steps
+- Batch size was set to 512
+- 4 epochs per iteration 
+
 ![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/pong_score.png?raw=true "Pong")
 
 ###### Brekout
+- One iteration consists of 4096 steps
+- Batch size was set to 512
+- 4 epochs per iteration 
 ![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/breakout_score.png?raw=true "Breakout")
 
 ###### MsPacman
+- One iteration consists of 4096 steps
+- Batch size was set to 512
+- 4 epochs per iteration 
 ![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/pacman_score.png?raw=true "Pacman")
 
 ###### Montezuma's Revenge
+- One iteration consists of 16384 steps
+- Batch size was set to 512
+- 4 epochs per iteration 
 ![Alt text](https://github.com/marrekb/rl_ppo/blob/main/plots/montezuma_score.png?raw=true "Montezuma")
 
 ## Few advantages in research:
