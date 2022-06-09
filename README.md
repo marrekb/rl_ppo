@@ -1,7 +1,7 @@
 # rl_ppo
 The repositary consists of custom implementation of PPO agent, Atari wrapper, training scripts, experiment results + trained models.
 
-###### PPO agent is able to: 
+**PPO agent is able to:**
 - collect data via multiprocessing
 - compute target values by GAE (Generalized Advantage Estimate)
 - predict values by head support
